@@ -1,0 +1,63 @@
+Reserve minimum: 3.0%
+
+Candidate A
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: 0.0 — pass
+Reserve >= 3.0%: 14.0 — pass
+Liquid within 5 days >= 90.0%: 100.0 — pass
+Largest single company <= 8.0%: 0.0 — pass
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+passes every checkable rule
+
+Candidate B
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: 0.0 — pass
+Reserve >= 3.0%: 1.0 — FAIL
+Liquid within 5 days >= 90.0%: 85.0 — FAIL
+Largest single company <= 8.0%: 9.0 — FAIL
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+fails 3 rule(s)
+
+Candidate C
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: 0.0 — pass
+Reserve >= 3.0%: 2.0 — FAIL
+Liquid within 5 days >= 90.0%: 100.0 — pass
+Largest single company <= 8.0%: 8.0 — pass
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+fails 1 rule(s)
+
+Candidate D
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: 0.0 — pass
+Reserve >= 3.0%: 100.0 — pass
+Liquid within 5 days >= 90.0%: 100.0 — pass
+Largest single company <= 8.0%: 0.0 — pass
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+passes every checkable rule
+
+Candidate E
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: 0.0 — pass
+Reserve >= 3.0%: 0.0 — FAIL
+Liquid within 5 days >= 90.0%: 100.0 — pass
+Largest single company <= 8.0%: 0.0 — pass
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+fails 1 rule(s)
+
+Candidate A long-only probe (temporary)
+Weights sum to 100: 100.0 — pass
+Long-only: lowest weight: -2.0 — FAIL
+Reserve >= 3.0%: 10.0 — pass
+Liquid within 5 days >= 90.0%: 100.0 — pass
+Largest single company <= 8.0%: 0.0 — pass
+Calendar-year loss: requires CIO clarification
+Turnover: not evaluated; current holdings/trades and approval status not supplied.
+fails 1 rule(s)
+
+PASS: all published known answers, negative-weight probe, D and benchmark E; base restored.

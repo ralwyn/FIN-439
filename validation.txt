@@ -1,0 +1,8 @@
+PASS: Benchmark, all published values
+PASS: Equal weight, all published values
+PASS: Inverse volatility, all published values
+PASS: correlation 0.50 in both cells -> benchmark 11.00%
+PASS: out of range refused: Correlation [2][3] must be finite and between -1 and 1.
+PASS: asymmetric refused: Correlation table must be symmetric.
+PASS: benchmark E fails the 3% reserve rule at 0.0%; other checkable rules pass
+PASS: original correlations remain 0.25
