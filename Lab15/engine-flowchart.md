@@ -1,5 +1,10 @@
 # portfolio.py — engine flowchart
 
+![Portfolio engine flowchart](engine-flowchart.png)
+
+<details>
+<summary>Mermaid source</summary>
+
 ```mermaid
 graph TD
     A["Monthly adjusted prices CSV"] --> B["estimate_from_csv: validate dates, columns and positive prices"]
@@ -36,3 +41,5 @@ graph TD
     AA["main: existing Lab 14 command-line path"] --> AB["Build benchmark, equal and inverse-volatility baselines"]
     AB --> AC["Use shared calculations and print unchanged baseline results"]
 ```
+
+</details>

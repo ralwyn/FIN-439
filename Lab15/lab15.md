@@ -38,6 +38,11 @@ The answer is the lowest-risk point on a 5-point grid, not a continuous optimum.
 
 This chart was checked against the current function bodies in `portfolio.py`. It covers the Python calculation engine only. The ETF download service and Streamlit interface are outside this diagram.
 
+![Portfolio engine flowchart](engine-flowchart.png)
+
+<details>
+<summary>Mermaid source</summary>
+
 ```mermaid
 graph TD
     A["Monthly adjusted prices CSV"] --> B["estimate_from_csv: validate dates, columns and positive prices"]
@@ -74,6 +79,8 @@ graph TD
     AA["main: existing Lab 14 command-line path"] --> AB["Build benchmark, equal and inverse-volatility baselines"]
     AB --> AC["Use shared calculations and print unchanged baseline results"]
 ```
+
+</details>
 
 ### How to explain the path
 

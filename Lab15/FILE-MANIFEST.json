@@ -38,18 +38,18 @@
     },
     {
       "path": "engine-flowchart.html",
-      "bytes": 74518,
-      "sha256": "42eca0f4830b198eaa356be6cce042e388224ec26e5a306251e5b66895d603f7"
+      "bytes": 67859,
+      "sha256": "2bf6fadf85d54f825dd7e5c95dbd2998dfbbc02a47c689c299388458231055c2"
     },
     {
       "path": "engine-flowchart.md",
-      "bytes": 1793,
-      "sha256": "b5c2509942b8e2f9653419ef9934764ce2786ecaeda2299caf639681a2b9e0c4"
+      "bytes": 1903,
+      "sha256": "dc2d26df421cd2e03f71e6c41983b05bf63ac7a2bc2086f97542ad325c2d488d"
     },
     {
       "path": "engine-flowchart.svg",
-      "bytes": 73081,
-      "sha256": "a7ba64849622b62f6aaca456e1808b9f534b0b9889abed0b5f341fb0161ad579"
+      "bytes": 66422,
+      "sha256": "24cd92c3ac3c7cfbca7e67b34657b40a5258449a808a28ca17b3789362d4805a"
     },
     {
       "path": "evidence/meridian-correlation.png",
@@ -88,8 +88,8 @@
     },
     {
       "path": "lab15.md",
-      "bytes": 16631,
-      "sha256": "b156dfa08745a21692abfad2ad3178da8b63c19b2239db2bdaa4130ee579d6df"
+      "bytes": 16741,
+      "sha256": "b739f8e3a9f76c3bd5a36780f0a86138355ffd1f7419acdbb44c48cd3b2b04af"
     },
     {
       "path": "mandate.py",
@@ -155,6 +155,11 @@
       "path": "yahoo-monthly-raw.csv",
       "bytes": 24839,
       "sha256": "dff95f3e5d4bcc9618446040cebedfcadd2b70fa002df56a615dd6abb286cfd3"
+    },
+    {
+      "path": "engine-flowchart.png",
+      "bytes": 30266,
+      "sha256": "4194f3db290927a01d403b23842da9a19f77439c64346bbe014bb7df2ac63bc6"
     }
   ]
 }
