@@ -43,8 +43,8 @@
     },
     {
       "path": "engine-flowchart.md",
-      "bytes": 2769,
-      "sha256": "7560967a82fe7ee9fa02e63ba5e64676e62fbb79816ae068b41d0f577d636c16"
+      "bytes": 1793,
+      "sha256": "b5c2509942b8e2f9653419ef9934764ce2786ecaeda2299caf639681a2b9e0c4"
     },
     {
       "path": "engine-flowchart.svg",
@@ -88,8 +88,8 @@
     },
     {
       "path": "lab15.md",
-      "bytes": 17607,
-      "sha256": "4a4ed65c96c2bdb322593e423463976a67f7a0b58c9027f2067f336673b2b440"
+      "bytes": 16631,
+      "sha256": "b156dfa08745a21692abfad2ad3178da8b63c19b2239db2bdaa4130ee579d6df"
     },
     {
       "path": "mandate.py",

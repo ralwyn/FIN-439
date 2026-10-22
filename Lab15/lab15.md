@@ -39,47 +39,40 @@ The answer is the lowest-risk point on a 5-point grid, not a continuous optimum.
 This chart was checked against the current function bodies in `portfolio.py`. It covers the Python calculation engine only. The ETF download service and Streamlit interface are outside this diagram.
 
 ```mermaid
-flowchart TD
-    CSV["Monthly adjusted prices: date plus 3–6 tickers"] --> READ["estimate_from_csv: read headers, dates and prices"]
-    READ --> VALID{"Valid numeric prices and consecutive months?"}
-    VALID -->|No| ERR["Raise a clear ValueError; no result"]
-    VALID -->|Yes| RET["Calculate each monthly return: price / prior price - 1"]
-    RET --> WINDOW{"last_36 requested?"}
-    WINDOW -->|No| ALL["Use all monthly returns"]
-    WINDOW -->|Yes| ENOUGH{"At least 36 returns?"}
-    ENOUGH -->|No| ERR
-    ENOUGH -->|Yes| LAST["Keep the last 36 returns"]
-    ALL --> EST["Estimate annual means = monthly means × 12; annual volatility = sample SD × √12; sample correlations"]
-    LAST --> EST
-    EST --> INPUT["search_portfolio inputs: returns, volatilities, correlations, objective, eligible assets, reserve minimum"]
-    TRAIN["Editable Meridian training inputs"] --> INPUT
-    RULES["Objective and reserve rule"] --> INPUT
-    INPUT --> CHECK{"Input lengths, finite values and reserve minimum valid?"}
-    CHECK -->|No| ERR
-    CHECK -->|Yes| COVCHECK{"covariance_matrix: positive volatilities; square, symmetric correlations in -1 to 1; diagonal = 1?"}
-    COVCHECK -->|No| ERR
-    COVCHECK -->|Yes| COV["Build covariance: correlation × volatility i × volatility j"]
-    COV --> INIT["Initialize best = None; best variance = infinity"]
-    INIT --> GRID["weight_grid: generate next long-only mix in 5-point steps; weights sum to 100%"]
-    GRID --> MORE{"Another mix exists?"}
-    MORE -->|Yes| CALC["portfolio_return: sum weight × return; reserve_weight: sum eligible weights"]
-    CALC --> PASS{"Return meets objective AND reserve meets minimum?"}
-    PASS -->|No: skip| GRID
-    PASS -->|Yes| VAR["portfolio_variance: sum weight i × weight j × covariance ij over every pair"]
-    VAR --> LOWER{"Variance lower than current best?"}
-    LOWER -->|No: keep existing best| GRID
-    LOWER -->|Yes| SAVE["Save weights, return and reserve; portfolio_volatility = square root of variance"]
-    SAVE --> GRID
-    MORE -->|No| FOUND{"A feasible mix was saved?"}
-    FOUND -->|Yes| OUT["Return lowest-risk feasible mix on this grid"]
-    FOUND -->|No| NONE["Return None: no mix meets both rules"]
-    OUT --> COMP["largest_weight_change: compare two results; maximum absolute weight difference × 100"]
-    NONE --> NA["largest_weight_change returns None if either result is missing"]
-
-    subgraph L14["Existing Lab 14 command-line path — unchanged"]
-        MAIN["main: use Meridian inputs"] --> BASE["baseline_portfolios: benchmark, equal weight, inverse volatility"]
-        BASE --> PRINT["Use shared covariance, return, volatility, reserve and objective functions; print three baselines"]
-    end
+graph TD
+    A["Monthly adjusted prices CSV"] --> B["estimate_from_csv: validate dates, columns and positive prices"]
+    B --> C["Calculate monthly returns from consecutive prices"]
+    C --> D{"Use last 36 returns?"}
+    D -->|No| E["Use all available returns"]
+    D -->|Yes| F["Require 36 returns and keep the most recent 36"]
+    E --> G["Estimate annual means, sample volatilities and correlations"]
+    F --> G
+    G --> H["search_portfolio inputs"]
+    T["Meridian training estimates"] --> H
+    M["Objective, reserve minimum and eligible assets"] --> H
+    H --> I["Validate search inputs and build covariance matrix"]
+    I --> J["Initialize best to None and best variance to infinity"]
+    J --> K["weight_grid: next fully invested long-only mix in 5 percent steps"]
+    K --> L{"Another mix available?"}
+    L -->|Yes| N["Compute weighted expected return and eligible reserve weight"]
+    N --> O{"Both mandate tests pass?"}
+    O -->|No| K
+    O -->|Yes| P["Compute variance from all weighted covariance pairs"]
+    P --> Q{"Lower variance than best so far?"}
+    Q -->|No| K
+    Q -->|Yes| R["Save mix, return, square-root volatility and reserve weight"]
+    R --> K
+    L -->|No| S{"Any feasible mix saved?"}
+    S -->|Yes| U["Return lowest-risk feasible grid mix"]
+    S -->|No| V["Return None"]
+    U --> W["largest_weight_change: compare two results in percentage points"]
+    V --> X["If either result is None, weight change is unavailable"]
+    B -.-> Y["Invalid data raises ValueError"]
+    F -.-> Y
+    G -.-> Y
+    I -.-> Y
+    AA["main: existing Lab 14 command-line path"] --> AB["Build benchmark, equal and inverse-volatility baselines"]
+    AB --> AC["Use shared calculations and print unchanged baseline results"]
 ```
 
 ### How to explain the path
