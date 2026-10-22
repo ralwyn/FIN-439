@@ -1,0 +1,160 @@
+{
+  "note": "Manifest excludes itself and the mutable delivery receipt. Class environment and caches are not published.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 62,
+      "sha256": "1d8816c9a8ea5aa0f4608b3afb32d50297e82d30cccd34e56059543543e62c16"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 48,
+      "sha256": "93d11cdf74777b7648e3afda57653d0504b4e58c8cdfb864f05995e35db99a20"
+    },
+    {
+      "path": "CHECKLIST.md",
+      "bytes": 2205,
+      "sha256": "66feb65774404fdcce4bc05013f081b799ea7c5dc465bf25dac4f7be745c8f16"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2211,
+      "sha256": "2598044a8bbf2bafdb4ee9a5608fc827c2d470a03e096ab7ba9948bdcc7e62db"
+    },
+    {
+      "path": "Start-Lab15.command",
+      "bytes": 364,
+      "sha256": "d706fbb2d3b7004da709891120734cf2b3be8f495fa0febd293cb6a7e0153eae"
+    },
+    {
+      "path": "app.py",
+      "bytes": 12490,
+      "sha256": "716c50d57c734fc4384eddd521f7d535ffd70102d3d021fa89af1b984e7cde49"
+    },
+    {
+      "path": "download_prices.py",
+      "bytes": 2921,
+      "sha256": "60fd5788370c70a16fc3b2720f3ecc38086a68fff77527ad19d27214f895cedc"
+    },
+    {
+      "path": "engine-flowchart.html",
+      "bytes": 74518,
+      "sha256": "42eca0f4830b198eaa356be6cce042e388224ec26e5a306251e5b66895d603f7"
+    },
+    {
+      "path": "engine-flowchart.md",
+      "bytes": 2769,
+      "sha256": "7560967a82fe7ee9fa02e63ba5e64676e62fbb79816ae068b41d0f577d636c16"
+    },
+    {
+      "path": "engine-flowchart.svg",
+      "bytes": 73081,
+      "sha256": "a7ba64849622b62f6aaca456e1808b9f534b0b9889abed0b5f341fb0161ad579"
+    },
+    {
+      "path": "evidence/meridian-correlation.png",
+      "bytes": 47107,
+      "sha256": "195249372e8d8f76415f504bb32cdba7f158e2d20b885aa77f32cb7a2759778b"
+    },
+    {
+      "path": "evidence/meridian-stress.png",
+      "bytes": 40834,
+      "sha256": "2e25c40763f2b2fa6a0987695ee246917f4e0aaf9b2d0c7771e8f245526a9c7d"
+    },
+    {
+      "path": "evidence/scholarship-36.png",
+      "bytes": 46269,
+      "sha256": "662a8af0200732e96fe0c72e965cd4e900fedcd5ec4e9e0f81c0863b512d4eea"
+    },
+    {
+      "path": "evidence/scholarship-all.png",
+      "bytes": 46528,
+      "sha256": "2858e2c89ea41a3bb37fc30967985c6c19b462b54c3bcc409b4f78a2eecce782"
+    },
+    {
+      "path": "evidence/scholarship-attack.png",
+      "bytes": 42545,
+      "sha256": "9842d094144092a699c2f2663b74a519552764da5f0c5e27f994e645f9f8452c"
+    },
+    {
+      "path": "executed-results.json",
+      "bytes": 3445,
+      "sha256": "b9853097ef0d7c55ed1a02563b070a1178e1f07c3c01e3ae927f05b4cf60aff0"
+    },
+    {
+      "path": "lab14-output.txt",
+      "bytes": 624,
+      "sha256": "bd6d040e0ddbdd412d9da22366773b6e555a60ce9473a34a4cbf35665a623e49"
+    },
+    {
+      "path": "lab15.md",
+      "bytes": 17607,
+      "sha256": "4a4ed65c96c2bdb322593e423463976a67f7a0b58c9027f2067f336673b2b440"
+    },
+    {
+      "path": "mandate.py",
+      "bytes": 4385,
+      "sha256": "45b6496442a51ce2af061c46d9466eaef991fea59780bd46eec4c026e874e73c"
+    },
+    {
+      "path": "market_data.py",
+      "bytes": 2252,
+      "sha256": "4d8ab51f621592469fe07316dc4b717c759cf8589bbb0f1f02df6f3244052179"
+    },
+    {
+      "path": "portfolio.py",
+      "bytes": 10417,
+      "sha256": "8efac3f34c8f64d374b526db05929a5bfdc6a26e8bcc17c322a3ea5682f3e336"
+    },
+    {
+      "path": "prework.md",
+      "bytes": 5725,
+      "sha256": "bc65aa68790c780d191cb34886783ec06bc68cf2560a94e022078b2c66ee846e"
+    },
+    {
+      "path": "price-sources.md",
+      "bytes": 815,
+      "sha256": "8ddf80ed8baf5a6ced56f40dec1d0eb483e61bc4802793cbf55a4ad8b11bf157"
+    },
+    {
+      "path": "prices.csv",
+      "bytes": 3620,
+      "sha256": "401be7c5bb93e4e4009107f16fd71073987b19600c72948ff25c2cfb42270abf"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 775,
+      "sha256": "3e85ae51a6c1ffddab847b323b58fd20fc94a33af9de88af369c8ca87a2d0cf7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 61,
+      "sha256": "dfce70cc2e5ac9443a80d0ecd74bccbe924fc1963579022a7c32df965e94f09f"
+    },
+    {
+      "path": "ui-validation.txt",
+      "bytes": 362,
+      "sha256": "404d94e3077d284e147f03ec241bf5c97654f600805091637f4a1cc50f448740"
+    },
+    {
+      "path": "validation.txt",
+      "bytes": 3797,
+      "sha256": "504e124c1fdb0cd1a7afaaee763c447ee56073a0826bb4cce513742a146dc576"
+    },
+    {
+      "path": "verify_lab15.py",
+      "bytes": 4810,
+      "sha256": "39319b14785b956b894ce7a3468abdc70f0c429f599ee2e85201281692070231"
+    },
+    {
+      "path": "verify_ui.py",
+      "bytes": 2144,
+      "sha256": "c717bfd1f088d5f5c25d12b5d2f7a52c73d51839d1c00f8c1f604c5a9ccd4461"
+    },
+    {
+      "path": "yahoo-monthly-raw.csv",
+      "bytes": 24839,
+      "sha256": "dff95f3e5d4bcc9618446040cebedfcadd2b70fa002df56a615dd6abb286cfd3"
+    }
+  ]
+}

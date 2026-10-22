@@ -1,0 +1,177 @@
+PASS: three published Meridian fixtures; 25-point shift; bad correlation rejection.
+PASS: 1771 distinct mixes; infeasible target; malformed monthly data rejection.
+PASS: 59/36 monthly-return windows cross-checked independently with numpy.
+PASS: scholarship allocations meet long-only, sum-to-one, 5-point grid, 6.5% target and 10% reserve constraints.
+{
+  "meridian_as_loaded": {
+    "weights": [
+      0.0,
+      0.2,
+      0.25,
+      0.55
+    ],
+    "return": 0.0651,
+    "volatility": 0.0944171594573783,
+    "reserve": 0.2
+  },
+  "meridian_equity_7": {
+    "weights": [
+      0.0,
+      0.1,
+      0.1,
+      0.8
+    ],
+    "return": 0.06530000000000001,
+    "volatility": 0.12938701635017327,
+    "reserve": 0.1
+  },
+  "meridian_change_pp": 25.0,
+  "meridian_correlation_050": {
+    "weights": [
+      0.0,
+      0.4,
+      0.0,
+      0.6
+    ],
+    "return": 0.06520000000000001,
+    "volatility": 0.09727486828569855,
+    "reserve": 0.4
+  },
+  "scholarship_all": {
+    "estimates": {
+      "names": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "returns": [
+        0.03657413969046572,
+        -0.017289448457118876,
+        -0.009276364723851134,
+        0.11050231213719372
+      ],
+      "volatilities": [
+        0.004909081068706458,
+        0.07718370749845418,
+        0.09868568317254776,
+        0.14924024160439014
+      ],
+      "correlations": [
+        [
+          1.0,
+          0.21100211615245945,
+          0.27983353211502077,
+          0.2564060352481992
+        ],
+        [
+          0.21100211615245948,
+          1.0,
+          0.9347913203900478,
+          0.6355137404571376
+        ],
+        [
+          0.27983353211502077,
+          0.9347913203900478,
+          1.0,
+          0.7971335619166566
+        ],
+        [
+          0.25640603524819927,
+          0.6355137404571377,
+          0.7971335619166567,
+          1.0
+        ]
+      ],
+      "months": 59,
+      "first_return_date": "2021-11-01",
+      "last_return_date": "2026-09-01"
+    },
+    "allocation": {
+      "weights": [
+        0.6,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "return": 0.06614540866915691,
+      "volatility": 0.06051833015357496,
+      "reserve": 0.6
+    }
+  },
+  "scholarship_36": {
+    "estimates": {
+      "names": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "returns": [
+        0.04365970163861318,
+        0.03069554620056969,
+        0.04842832264999068,
+        0.20247154478192364
+      ],
+      "volatilities": [
+        0.0021348300363935166,
+        0.06660158638756347,
+        0.07822457325413519,
+        0.11708917430189807
+      ],
+      "correlations": [
+        [
+          1.0,
+          0.16745059875759982,
+          0.23520067972875194,
+          0.14741589864383492
+        ],
+        [
+          0.16745059875759982,
+          1.0,
+          0.9355864995693038,
+          0.5505386386906156
+        ],
+        [
+          0.23520067972875194,
+          0.935586499569304,
+          1.0,
+          0.6876216510372897
+        ],
+        [
+          0.14741589864383492,
+          0.5505386386906156,
+          0.6876216510372896,
+          1.0
+        ]
+      ],
+      "months": 36,
+      "first_return_date": "2023-10-01",
+      "last_return_date": "2026-09-01"
+    },
+    "allocation": {
+      "weights": [
+        0.85,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "return": 0.06748147811010974,
+      "volatility": 0.017920977679340897,
+      "reserve": 0.85
+    }
+  },
+  "scholarship_VT_minus_1pp": {
+    "weights": [
+      0.55,
+      0.0,
+      0.0,
+      0.45
+    ],
+    "return": 0.06534181729149333,
+    "volatility": 0.06790057415965418,
+    "reserve": 0.55
+  },
+  "scholarship_window_change_pp": 25.0,
+  "scholarship_VT_stress_change_pp": 4.999999999999999
+}

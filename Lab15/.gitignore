@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+.market-cache/
+.yfinance-cache/
+.DS_Store

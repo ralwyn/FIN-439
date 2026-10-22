@@ -1,0 +1,5 @@
+PASS: Meridian original and equity-return stress match published app results.
+PASS: scholarship full-history and last-36 app results match engine results.
+PASS: VT attack and restore controls work.
+PASS: infeasible objective is reported without changing the target.
+PASS: direct ETF entry form renders. Actual Yahoo fetch was separately verified in the browser.
