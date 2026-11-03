@@ -1,0 +1,68 @@
+[
+  {
+    "Series": "BAA",
+    "FRED page": "https://fred.stlouisfed.org/series/BAA",
+    "Last measured then": "2026-09-01",
+    "Value then": 6.47,
+    "Last measured today": "2026-10-01",
+    "Value today": 6.59,
+    "Later observations": 1,
+    "Revised common dates": 0,
+    "Common dates": 1293,
+    "Previously present, absent today": 0,
+    "as_known_on": "2026-10-05"
+  },
+  {
+    "Series": "FEDFUNDS",
+    "FRED page": "https://fred.stlouisfed.org/series/FEDFUNDS",
+    "Last measured then": "2026-09-01",
+    "Value then": 3.75,
+    "Last measured today": "2026-10-01",
+    "Value today": 3.88,
+    "Later observations": 1,
+    "Revised common dates": 0,
+    "Common dates": 867,
+    "Previously present, absent today": 0,
+    "as_known_on": "2026-10-05"
+  },
+  {
+    "Series": "DGS10",
+    "FRED page": "https://fred.stlouisfed.org/series/DGS10",
+    "Last measured then": "2026-10-02",
+    "Value then": 5.28,
+    "Last measured today": "2026-10-30",
+    "Value today": 4.94,
+    "Later observations": 19,
+    "Revised common dates": 0,
+    "Common dates": 16174,
+    "Previously present, absent today": 0,
+    "as_known_on": "2026-10-05"
+  },
+  {
+    "Series": "MORTGAGE30US",
+    "FRED page": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+    "Last measured then": "2026-10-01",
+    "Value then": 7.28,
+    "Last measured today": "2026-10-29",
+    "Value today": 7.24,
+    "Later observations": 4,
+    "Revised common dates": 0,
+    "Common dates": 2897,
+    "Previously present, absent today": 0,
+    "as_known_on": "2026-10-05"
+  },
+  {
+    "Series": "PAYEMS",
+    "FRED page": "https://fred.stlouisfed.org/series/PAYEMS",
+    "Last measured then": "2024-12-01",
+    "Value then": 159536.0,
+    "Last measured today": "2026-09-01",
+    "Value today": 159044.0,
+    "Later observations": 21,
+    "Revised common dates": 381,
+    "Common dates": 1032,
+    "Previously present, absent today": 0,
+    "as_known_on": "2025-01-15",
+    "December 2024 today": 158316.0
+  }
+]
