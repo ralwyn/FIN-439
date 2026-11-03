@@ -1,0 +1,3 @@
+AppTest widget validation; recorded HTTP fixtures, not live network calls.
+Lab17: four charts/table; historical date; invalid-ID isolation; PAYEMS revision probe passed using recorded HTTP fixtures.
+Lab18: COST checks/memo; saved replay; 40.0% warning; JPM honest gaps; invalid ticker passed.
