@@ -1,0 +1,16 @@
+Decision date: 2026-03-31; input rows: 12
+Quarantine: no ticker: 1 removed, rows [11]
+Exact duplicate: 1 removed, rows [7]
+Published after decision date: 3 removed, rows [3, 8, 10]
+Older vintage replaced: 1 removed, rows [2]
+
+As-of panel: row | ticker | measured | published | price | yield
+ 1 | AAA | 2026-01 | 2026-02-10 | 101.0 | -0.99%
+ 4 | AAA | 2026-02 | 2026-03-25 | 103.0 | -2.91%
+ 5 | BBB | 2026-01 | 2026-02-10 | 98.0 | +2.04%
+ 6 | BBB | 2026-02 | 2026-03-10 | 97.0 | +3.09%
+ 9 | CCC | 2026-01 | 2026-02-10 | 110.0 | -9.09%
+12 | CCC | 2026-02 | 2026-03-10 | 111.0 | -9.91%
+AAA asof: +1.98% (2026-02) | naive: +5.83% (2026-03)
+BBB asof: -1.02% (2026-02) | naive: -5.15% (2026-03)
+CCC asof: +0.91% (2026-02) | naive: +1.82% (2026-02)

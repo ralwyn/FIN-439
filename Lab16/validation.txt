@@ -1,0 +1,10 @@
+test_conflicting_same_day (__main__.ProvenanceTests.test_conflicting_same_day) ... ok
+test_known_answer (__main__.ProvenanceTests.test_known_answer) ... ok
+test_later_date (__main__.ProvenanceTests.test_later_date) ... ok
+test_missing_previous_month (__main__.ProvenanceTests.test_missing_previous_month) ... ok
+test_publication_boundary (__main__.ProvenanceTests.test_publication_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
