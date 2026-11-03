@@ -3,7 +3,7 @@ Downloaded November 3, 2026.
 
 The release is posted daily Monday through Friday at 4:15pm.
       The release is not posted on holidays or in the event that the
-      Board is closed. Release date: November 2, 2026 Selected Interest Rates Yields in percent per annum Instruments 2026 Oct 26 
+      Board is closed. Release date: November 2, 2026 Selected Interest Rates Yields in percent per annum Instruments 2026 Oct 26
 
 ALFRED help: https://alfred.stlouisfed.org/help
 ALFRED says updates are typically within one business day; a date is not an intraday timestamp.

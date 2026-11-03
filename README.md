@@ -10,7 +10,7 @@
 | [15 — Portfolio Stability](Lab15/lab15.md) | `Lab15/app.py` | Prior work preserved | See prior submission receipt |
 | [14 — Portfolio Baselines](lab14.md) | `portfolio.py` | Prior work preserved | See prior work |
 
-Start with [CATCH-UP.md](CATCH-UP.md) for the learning sequence and remaining checklist. [STUDY-GUIDE.md](STUDY-GUIDE.md) explains the core ideas and gives short self-check questions. [SUBMISSION-LINKS.md](SUBMISSION-LINKS.md) lists the GitHub URLs for checkout. [app-validation.txt](app-validation.txt) records interactive widget checks.
+Start with [CATCH-UP.md](CATCH-UP.md) for the learning sequence and remaining checklist. [STUDY-GUIDE.md](STUDY-GUIDE.md) explains the core ideas and gives short self-check questions. [SUBMISSION-LINKS.md](SUBMISSION-LINKS.md) lists the GitHub URLs for checkout. [app-validation.txt](app-validation.txt) records interactive widget checks. [PUBLICATION.md](PUBLICATION.md) records the verified GitHub delivery.
 
 The student reports that the professor waived in-person attendance and partner activities because of career fairs (November 3, 2026). No partner work is outstanding or claimed. AI-written memos, practice answers and decision drafts are identified; Brightspace submissions and personal judgments are not fabricated.
 
