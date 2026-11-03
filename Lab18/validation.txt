@@ -11,6 +11,6 @@ test_numeric_formats_and_years (__main__.FactsTests.test_numeric_formats_and_yea
 test_saved_memos (__main__.FactsTests.test_saved_memos) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.169s
+Ran 11 tests in 0.185s
 
 OK

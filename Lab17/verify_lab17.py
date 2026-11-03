@@ -27,7 +27,10 @@ class RateTests(unittest.TestCase):
 
     def test_month_end_project_series(self):
         r = compare("DGS10", saved("DGS10"), saved("DGS10", "2026-10-31"))
-        self.assertEqual(r["Later observations"], 0)
+        self.assertEqual(r["Last measured then"], "2026-10-29")
+        self.assertEqual(r["Value then"], 4.98)
+        self.assertEqual(r["Last measured today"], "2026-10-30")
+        self.assertEqual(r["Later observations"], 1)
         self.assertEqual(r["Revised common dates"], 0)
 
     def test_missing_days_not_zero(self):

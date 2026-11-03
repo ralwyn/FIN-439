@@ -31,7 +31,7 @@ All four required historical answers match. PAYEMS December 2024 is 158,316 in t
 - **Why it fits the universe:** Treasury yields help explain IEF's rate exposure and the interest-rate component of LQD. Credit spreads affect LQD too, so DGS10 alone is not a complete driver. BIL has much shorter rate exposure; VT adds equity exposure.
 - **Publication timing:** the official H.15 page states daily weekday publication at 4:15 p.m., except holidays/closures. The November 3 download has October 30 as its latest measured date. ALFRED's help says its updates typically follow within one business day. Do not infer a guaranteed same-day or pre-market publication time from the observation date. Date-level vintages cannot establish availability before an intraday trade.
 - **Revisions:** the October 5 vintage comparison shows zero revised common dates across 16,174 shared observations. That is observed evidence, not a guarantee that corrections never occur.
-- **Download date:** November 3, 2026; original CSVs and metadata preserved. The October 31 vintage and current download have the same last measured date (October 30), no later observations and no revisions. No new values appeared between those snapshots; do not invent a lag effect just because the exercise expects one.
+- **Download date:** November 3, 2026; original CSVs and metadata preserved. The October 31 vintage ends on October 29 at 4.98%; the current download adds October 30 at 4.94%. There is one later observation and no revisions on common dates. This is direct evidence that even a daily series' measurement date need not establish availability on that day.
 
 ## Three observations independently read from the FRED page
 

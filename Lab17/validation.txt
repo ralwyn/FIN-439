@@ -2,18 +2,10 @@ test_duplicates_and_html_rejected (__main__.RateTests.test_duplicates_and_html_r
 test_empty_vintage (__main__.RateTests.test_empty_vintage) ... ok
 test_four_known_answers (__main__.RateTests.test_four_known_answers) ... ok
 test_missing_days_not_zero (__main__.RateTests.test_missing_days_not_zero) ... ok
-test_month_end_project_series (__main__.RateTests.test_month_end_project_series) ... FAIL
+test_month_end_project_series (__main__.RateTests.test_month_end_project_series) ... ok
 test_payroll_revision (__main__.RateTests.test_payroll_revision) ... ok
 
-======================================================================
-FAIL: test_month_end_project_series (__main__.RateTests.test_month_end_project_series)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/rohan_alwyn/Documents/Codex/2026-11-03/he/outputs/FIN-439/Lab17/verify_lab17.py", line 30, in test_month_end_project_series
-    self.assertEqual(r["Later observations"], 0)
-AssertionError: 1 != 0
+Ran 6 tests in 0.055s
 
-----------------------------------------------------------------------
-Ran 6 tests in 0.069s
-
-FAILED (failures=1)
+OK
