@@ -1,0 +1,9 @@
+{
+  "source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+    "downloaded_at": "2026-11-03T05:56:45.542625+00:00",
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+  },
+  "facts_fingerprint": "a74739cf69ae02187c119fa87bca135505a558578e7c378272b9995796308624",
+  "result": "Live SEC downloader reproduced COST table; only the download timestamp differed from replay."
+}

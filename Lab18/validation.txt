@@ -1,0 +1,16 @@
+test_ambiguous_same_day (__main__.FactsTests.test_ambiguous_same_day) ... ok
+test_cost_known_answer (__main__.FactsTests.test_cost_known_answer) ... ok
+test_fallback_and_latest (__main__.FactsTests.test_fallback_and_latest) ... ok
+test_full_year_not_filing_label (__main__.FactsTests.test_full_year_not_filing_label) ... ok
+test_growth_uses_endpoints (__main__.FactsTests.test_growth_uses_endpoints) ... ok
+test_jpm_gaps (__main__.FactsTests.test_jpm_gaps) ... ok
+test_memo_guard (__main__.FactsTests.test_memo_guard) ... ok
+test_missing_year (__main__.FactsTests.test_missing_year) ... ok
+test_nonpositive_equity (__main__.FactsTests.test_nonpositive_equity) ... ok
+test_numeric_formats_and_years (__main__.FactsTests.test_numeric_formats_and_years) ... ok
+test_saved_memos (__main__.FactsTests.test_saved_memos) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.169s
+
+OK
