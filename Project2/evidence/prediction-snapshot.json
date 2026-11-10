@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-11-10T17:42:34.681645+00:00",
+  "sha256": "1c7e0b1a891181a375b2d4bbf7ab4a19c0ddd06ff6ba10a16abc0c2c70595df9",
+  "input": "reserve_minimum",
+  "old": 0.1,
+  "new": 0.9
+}

@@ -1,0 +1,13 @@
+test_constraints (__main__.ProjectChecks.test_constraints) ... ok
+test_cost_and_verdict (__main__.ProjectChecks.test_cost_and_verdict) ... ok
+test_exhaustive_minimum (__main__.ProjectChecks.test_exhaustive_minimum) ... ok
+test_infeasible (__main__.ProjectChecks.test_infeasible) ... ok
+test_invalid_input (__main__.ProjectChecks.test_invalid_input) ... ok
+test_saved_own_universe (__main__.ProjectChecks.test_saved_own_universe) ... ok
+test_timing_gate (__main__.ProjectChecks.test_timing_gate) ... ok
+test_training_known_answers (__main__.ProjectChecks.test_training_known_answers) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.150s
+
+OK

@@ -1,0 +1,2 @@
+PASS: COST, threshold probe, NVDA, unprinted-number flag in all three memos, JPM gaps.
+2026-11-10 12:52:10.575 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.

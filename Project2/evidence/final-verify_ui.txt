@@ -1,0 +1,2 @@
+PASS: portfolio app, infeasible reserve verdict, timing quarantine, alternate window and cost controls.
+2026-11-10 13:31:17.120 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.

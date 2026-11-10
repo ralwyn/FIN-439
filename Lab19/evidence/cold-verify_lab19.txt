@@ -1,0 +1,12 @@
+test_boundary (__main__.PanelChecks.test_boundary) ... ok
+test_cost_known_answers (__main__.PanelChecks.test_cost_known_answers) ... ok
+test_jpm_gaps (__main__.PanelChecks.test_jpm_gaps) ... ok
+test_memos_and_probe (__main__.PanelChecks.test_memos_and_probe) ... ok
+test_missing_and_equity (__main__.PanelChecks.test_missing_and_equity) ... ok
+test_nvda (__main__.PanelChecks.test_nvda) ... ok
+test_probe (__main__.PanelChecks.test_probe) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.245s
+
+OK

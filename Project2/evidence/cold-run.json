@@ -1,0 +1,30 @@
+[
+  {
+    "folder": "Project2",
+    "command": "python verify_project.py",
+    "exit_code": 0,
+    "seconds": 0.21,
+    "first_failure": null
+  },
+  {
+    "folder": "Project2",
+    "command": "python verify_ui.py",
+    "exit_code": 0,
+    "seconds": 14.51,
+    "first_failure": null
+  },
+  {
+    "folder": "Lab19",
+    "command": "python verify_lab19.py",
+    "exit_code": 0,
+    "seconds": 0.34,
+    "first_failure": null
+  },
+  {
+    "folder": "Lab19",
+    "command": "python verify_ui.py",
+    "exit_code": 0,
+    "seconds": 1.59,
+    "first_failure": null
+  }
+]

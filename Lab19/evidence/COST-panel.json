@@ -1,0 +1,399 @@
+{
+  "ticker": "COST",
+  "company": "COSTCO WHOLESALE CORP /NEW",
+  "source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+    "downloaded_at": "2026-11-03T05:48:34.083745+00:00",
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+  },
+  "basis": "Latest available 10-K facts, not a historical as-of screen",
+  "rows": [
+    {
+      "fiscal_year_end": "2022-08-28",
+      "fiscal_year_start": "2021-08-30",
+      "facts": {
+        "revenue": {
+          "value": 226954000000,
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "units": "USD",
+          "start": "2021-08-30",
+          "end": "2022-08-28",
+          "filed": "2024-10-09",
+          "accession": "0000909832-24-000049"
+        },
+        "net_income": {
+          "value": 5844000000,
+          "tag": "us-gaap:NetIncomeLoss",
+          "units": "USD",
+          "start": "2021-08-30",
+          "end": "2022-08-28",
+          "filed": "2024-10-09",
+          "accession": "0000909832-24-000049"
+        },
+        "operating_cash_flow": {
+          "value": 7392000000,
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "units": "USD",
+          "start": "2021-08-30",
+          "end": "2022-08-28",
+          "filed": "2024-10-09",
+          "accession": "0000909832-24-000049"
+        },
+        "capital_spending": {
+          "value": 3891000000,
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "units": "USD",
+          "start": "2021-08-30",
+          "end": "2022-08-28",
+          "filed": "2024-10-09",
+          "accession": "0000909832-24-000049"
+        },
+        "equity": {
+          "value": 20642000000,
+          "tag": "us-gaap:StockholdersEquity",
+          "units": "USD",
+          "start": null,
+          "end": "2022-08-28",
+          "filed": "2023-10-11",
+          "accession": "0000909832-23-000042"
+        },
+        "liabilities": {
+          "value": 43519000000,
+          "tag": "us-gaap:Liabilities",
+          "units": "USD",
+          "start": null,
+          "end": "2022-08-28",
+          "filed": "2023-10-11",
+          "accession": "0000909832-23-000042"
+        },
+        "research_and_development": {
+          "value": null,
+          "tag": null,
+          "status": "not found",
+          "attempted_tags": [
+            "us-gaap:ResearchAndDevelopmentExpense",
+            "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+          ]
+        }
+      },
+      "roe_percent": 28.311210154054837,
+      "owner_earnings": 3501000000,
+      "liabilities_to_equity": 2.1082743920162774,
+      "rd_percent": null
+    },
+    {
+      "fiscal_year_end": "2023-09-03",
+      "fiscal_year_start": "2022-08-29",
+      "facts": {
+        "revenue": {
+          "value": 242290000000,
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "units": "USD",
+          "start": "2022-08-29",
+          "end": "2023-09-03",
+          "filed": "2025-10-08",
+          "accession": "0000909832-25-000101"
+        },
+        "net_income": {
+          "value": 6292000000,
+          "tag": "us-gaap:NetIncomeLoss",
+          "units": "USD",
+          "start": "2022-08-29",
+          "end": "2023-09-03",
+          "filed": "2025-10-08",
+          "accession": "0000909832-25-000101"
+        },
+        "operating_cash_flow": {
+          "value": 11068000000,
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "units": "USD",
+          "start": "2022-08-29",
+          "end": "2023-09-03",
+          "filed": "2025-10-08",
+          "accession": "0000909832-25-000101"
+        },
+        "capital_spending": {
+          "value": 4323000000,
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "units": "USD",
+          "start": "2022-08-29",
+          "end": "2023-09-03",
+          "filed": "2025-10-08",
+          "accession": "0000909832-25-000101"
+        },
+        "equity": {
+          "value": 25058000000,
+          "tag": "us-gaap:StockholdersEquity",
+          "units": "USD",
+          "start": null,
+          "end": "2023-09-03",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "liabilities": {
+          "value": 43936000000,
+          "tag": "us-gaap:Liabilities",
+          "units": "USD",
+          "start": null,
+          "end": "2023-09-03",
+          "filed": "2024-10-09",
+          "accession": "0000909832-24-000049"
+        },
+        "research_and_development": {
+          "value": null,
+          "tag": null,
+          "status": "not found",
+          "attempted_tags": [
+            "us-gaap:ResearchAndDevelopmentExpense",
+            "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+          ]
+        }
+      },
+      "roe_percent": 25.10974539069359,
+      "owner_earnings": 6745000000,
+      "liabilities_to_equity": 1.7533721765504031,
+      "rd_percent": null
+    },
+    {
+      "fiscal_year_end": "2024-09-01",
+      "fiscal_year_start": "2023-09-04",
+      "facts": {
+        "revenue": {
+          "value": 254453000000,
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "units": "USD",
+          "start": "2023-09-04",
+          "end": "2024-09-01",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "net_income": {
+          "value": 7367000000,
+          "tag": "us-gaap:NetIncomeLoss",
+          "units": "USD",
+          "start": "2023-09-04",
+          "end": "2024-09-01",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "operating_cash_flow": {
+          "value": 11339000000,
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "units": "USD",
+          "start": "2023-09-04",
+          "end": "2024-09-01",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "capital_spending": {
+          "value": 4710000000,
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "units": "USD",
+          "start": "2023-09-04",
+          "end": "2024-09-01",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "equity": {
+          "value": 23622000000,
+          "tag": "us-gaap:StockholdersEquity",
+          "units": "USD",
+          "start": null,
+          "end": "2024-09-01",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "liabilities": {
+          "value": 46209000000,
+          "tag": "us-gaap:Liabilities",
+          "units": "USD",
+          "start": null,
+          "end": "2024-09-01",
+          "filed": "2025-10-08",
+          "accession": "0000909832-25-000101"
+        },
+        "research_and_development": {
+          "value": null,
+          "tag": null,
+          "status": "not found",
+          "attempted_tags": [
+            "us-gaap:ResearchAndDevelopmentExpense",
+            "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+          ]
+        }
+      },
+      "roe_percent": 31.187029040724752,
+      "owner_earnings": 6629000000,
+      "liabilities_to_equity": 1.9561849123698247,
+      "rd_percent": null
+    },
+    {
+      "fiscal_year_end": "2025-08-31",
+      "fiscal_year_start": "2024-09-02",
+      "facts": {
+        "revenue": {
+          "value": 275235000000,
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "units": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "net_income": {
+          "value": 8099000000,
+          "tag": "us-gaap:NetIncomeLoss",
+          "units": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "operating_cash_flow": {
+          "value": 13335000000,
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "units": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "capital_spending": {
+          "value": 5498000000,
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "units": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "equity": {
+          "value": 29164000000,
+          "tag": "us-gaap:StockholdersEquity",
+          "units": "USD",
+          "start": null,
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "liabilities": {
+          "value": 47935000000,
+          "tag": "us-gaap:Liabilities",
+          "units": "USD",
+          "start": null,
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "research_and_development": {
+          "value": null,
+          "tag": null,
+          "status": "not found",
+          "attempted_tags": [
+            "us-gaap:ResearchAndDevelopmentExpense",
+            "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+          ]
+        }
+      },
+      "roe_percent": 27.770539020710466,
+      "owner_earnings": 7837000000,
+      "liabilities_to_equity": 1.6436359895761898,
+      "rd_percent": null
+    },
+    {
+      "fiscal_year_end": "2026-08-30",
+      "fiscal_year_start": "2025-09-01",
+      "facts": {
+        "revenue": {
+          "value": 303154000000,
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "units": "USD",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "net_income": {
+          "value": 9226000000,
+          "tag": "us-gaap:NetIncomeLoss",
+          "units": "USD",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "operating_cash_flow": {
+          "value": 15817000000,
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "units": "USD",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "capital_spending": {
+          "value": 6435000000,
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "units": "USD",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "equity": {
+          "value": 35803000000,
+          "tag": "us-gaap:StockholdersEquity",
+          "units": "USD",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "liabilities": {
+          "value": 53242000000,
+          "tag": "us-gaap:Liabilities",
+          "units": "USD",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093"
+        },
+        "research_and_development": {
+          "value": null,
+          "tag": null,
+          "status": "not found",
+          "attempted_tags": [
+            "us-gaap:ResearchAndDevelopmentExpense",
+            "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+          ]
+        }
+      },
+      "roe_percent": 25.768790324833112,
+      "owner_earnings": 9382000000,
+      "liabilities_to_equity": 1.4870820880931765,
+      "rd_percent": null
+    }
+  ],
+  "checks": {
+    "ROE at least 15% every year": "pass",
+    "Owner earnings positive every year": "pass",
+    "Owner earnings grew first to last": "pass"
+  },
+  "growth_percent": 7.505668815961197,
+  "growth_threshold_percent": 15,
+  "panel": {
+    "Buffett": {
+      "ROE at least 15% every year": "pass",
+      "Owner earnings positive every year": "pass",
+      "Owner earnings grew first to last": "pass"
+    },
+    "Cathie Wood": {
+      "Revenue CAGR at least 15%": "fail",
+      "Latest R&D / revenue at least 5%": "not known"
+    },
+    "Burry": {
+      "Operating cash flow at least net income every year": "pass",
+      "Latest liabilities / equity no more than 2": "pass"
+    }
+  }
+}

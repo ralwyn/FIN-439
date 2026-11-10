@@ -1,0 +1,1 @@
+Seven financial/source/missing-value/memo tests passed. COST known panel, threshold probe, NVDA disagreement, JPM gaps, all-memo guard and UI controls verified. See cold-verify_lab19.txt and cold-verify_ui.txt.

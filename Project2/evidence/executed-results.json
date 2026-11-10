@@ -1,0 +1,1079 @@
+{
+  "base": {
+    "inputs": {
+      "objective": 0.065,
+      "reserve_minimum": 0.1,
+      "cost_bps": 10,
+      "concentration_cap": 1,
+      "window": "All 59 returns",
+      "vt_shock_percentage_points": 0
+    },
+    "estimates": {
+      "names": [
+        "BIL",
+        "IEF",
+        "LQD",
+        "VT"
+      ],
+      "returns": [
+        0.03657413969046572,
+        -0.017289448457118876,
+        -0.009276364723851134,
+        0.11050231213719372
+      ],
+      "volatilities": [
+        0.004909081068706458,
+        0.07718370749845418,
+        0.09868568317254776,
+        0.14924024160439014
+      ],
+      "correlations": [
+        [
+          1.0,
+          0.21100211615245945,
+          0.27983353211502077,
+          0.2564060352481992
+        ],
+        [
+          0.21100211615245948,
+          1.0,
+          0.9347913203900478,
+          0.6355137404571376
+        ],
+        [
+          0.27983353211502077,
+          0.9347913203900478,
+          1.0,
+          0.7971335619166566
+        ],
+        [
+          0.25640603524819927,
+          0.6355137404571377,
+          0.7971335619166567,
+          1.0
+        ]
+      ],
+      "months": 59,
+      "first_return_date": "2021-11-01",
+      "last_return_date": "2026-09-01"
+    },
+    "portfolios": {
+      "Equal weight": {
+        "weights": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "gross_return": 0.030127659661672357,
+        "cost_drag": 0.0005,
+        "net_return": 0.029627659661672356,
+        "volatility": 0.07548227089762465,
+        "reserve": 0.25,
+        "turnover": 0.5,
+        "verdict": "FAIL",
+        "failed_rules": [
+          "Net modeled return below target"
+        ]
+      },
+      "Inverse volatility": {
+        "weights": [
+          0.87241689444597,
+          0.05548794427412243,
+          0.04339804035258242,
+          0.028697120927325053
+        ],
+        "gross_return": 0.03371706357680938,
+        "cost_drag": 0.00037130287907267495,
+        "net_return": 0.033345760697736704,
+        "volatility": 0.013697727296105014,
+        "reserve": 0.87241689444597,
+        "turnover": 0.37130287907267495,
+        "verdict": "FAIL",
+        "failed_rules": [
+          "Net modeled return below target"
+        ]
+      },
+      "Policy benchmark (40% LQD / 60% VT)": {
+        "weights": [
+          0,
+          0,
+          0.4,
+          0.6
+        ],
+        "gross_return": 0.06259084139277578,
+        "cost_drag": 0.0006,
+        "net_return": 0.061990841392775775,
+        "volatility": 0.12333536509658251,
+        "reserve": 0,
+        "turnover": 0.6,
+        "verdict": "FAIL",
+        "failed_rules": [
+          "Net modeled return below target",
+          "BIL below reserve floor"
+        ]
+      },
+      "Constrained portfolio": {
+        "weights": [
+          0.6,
+          0.0,
+          0.0,
+          0.4
+        ],
+        "gross_return": 0.06614540866915691,
+        "cost_drag": 0.0,
+        "net_return": 0.06614540866915691,
+        "volatility": 0.06051833015357496,
+        "reserve": 0.6,
+        "turnover": 0.0,
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    },
+    "decision": "RESEARCH PILOT \u2014 committee review required"
+  },
+  "signal": {
+    "decision_date": "2026-11-10",
+    "sources": [
+      {
+        "vintage": "2026-10-05",
+        "observation": "2026-10-02",
+        "yield_percent": 5.28,
+        "downloaded_at": "2026-11-03T05:48:38.244712+00:00",
+        "available_no_earlier_than": "2026-11-04",
+        "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-05"
+      },
+      {
+        "vintage": "2026-10-31",
+        "observation": "2026-10-29",
+        "yield_percent": 4.98,
+        "downloaded_at": "2026-11-03T05:53:00.424927+00:00",
+        "available_no_earlier_than": "2026-11-04",
+        "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-31"
+      }
+    ],
+    "change_bps": -29.999999999999982,
+    "threshold_bps": 25,
+    "admitted": true,
+    "fresh_within_15_calendar_days": true,
+    "state": "no rate-rise alert",
+    "rule": "A rise of at least 25 basis points between the two archived vintage endpoints triggers committee review; no automatic trading.",
+    "purpose": "Governance/rate-risk monitor, not a validated return predictor or backtest."
+  },
+  "stresses": {
+    "Base": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 10,
+        "concentration_cap": 1,
+        "window": "All 59 returns",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.03657413969046572,
+          -0.017289448457118876,
+          -0.009276364723851134,
+          0.11050231213719372
+        ],
+        "volatilities": [
+          0.004909081068706458,
+          0.07718370749845418,
+          0.09868568317254776,
+          0.14924024160439014
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.21100211615245945,
+            0.27983353211502077,
+            0.2564060352481992
+          ],
+          [
+            0.21100211615245948,
+            1.0,
+            0.9347913203900478,
+            0.6355137404571376
+          ],
+          [
+            0.27983353211502077,
+            0.9347913203900478,
+            1.0,
+            0.7971335619166566
+          ],
+          [
+            0.25640603524819927,
+            0.6355137404571377,
+            0.7971335619166567,
+            1.0
+          ]
+        ],
+        "months": 59,
+        "first_return_date": "2021-11-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.030127659661672357,
+          "cost_drag": 0.0005,
+          "net_return": 0.029627659661672356,
+          "volatility": 0.07548227089762465,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.87241689444597,
+            0.05548794427412243,
+            0.04339804035258242,
+            0.028697120927325053
+          ],
+          "gross_return": 0.03371706357680938,
+          "cost_drag": 0.00037130287907267495,
+          "net_return": 0.033345760697736704,
+          "volatility": 0.013697727296105014,
+          "reserve": 0.87241689444597,
+          "turnover": 0.37130287907267495,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.06259084139277578,
+          "cost_drag": 0.0006,
+          "net_return": 0.061990841392775775,
+          "volatility": 0.12333536509658251,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.6,
+            0.0,
+            0.0,
+            0.4
+          ],
+          "gross_return": 0.06614540866915691,
+          "cost_drag": 0.0,
+          "net_return": 0.06614540866915691,
+          "volatility": 0.06051833015357496,
+          "reserve": 0.6,
+          "turnover": 0.0,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    },
+    "VT estimate minus 1 percentage point": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 10,
+        "concentration_cap": 1,
+        "window": "All 59 returns",
+        "vt_shock_percentage_points": -1
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.03657413969046572,
+          -0.017289448457118876,
+          -0.009276364723851134,
+          0.10050231213719373
+        ],
+        "volatilities": [
+          0.004909081068706458,
+          0.07718370749845418,
+          0.09868568317254776,
+          0.14924024160439014
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.21100211615245945,
+            0.27983353211502077,
+            0.2564060352481992
+          ],
+          [
+            0.21100211615245948,
+            1.0,
+            0.9347913203900478,
+            0.6355137404571376
+          ],
+          [
+            0.27983353211502077,
+            0.9347913203900478,
+            1.0,
+            0.7971335619166566
+          ],
+          [
+            0.25640603524819927,
+            0.6355137404571377,
+            0.7971335619166567,
+            1.0
+          ]
+        ],
+        "months": 59,
+        "first_return_date": "2021-11-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.027627659661672358,
+          "cost_drag": 0.0005,
+          "net_return": 0.027127659661672358,
+          "volatility": 0.07548227089762465,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.87241689444597,
+            0.05548794427412243,
+            0.04339804035258242,
+            0.028697120927325053
+          ],
+          "gross_return": 0.03343009236753612,
+          "cost_drag": 0.00037130287907267495,
+          "net_return": 0.03305878948846345,
+          "volatility": 0.013697727296105014,
+          "reserve": 0.87241689444597,
+          "turnover": 0.37130287907267495,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.05659084139277578,
+          "cost_drag": 0.0006,
+          "net_return": 0.05599084139277578,
+          "volatility": 0.12333536509658251,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.55,
+            0.0,
+            0.0,
+            0.45
+          ],
+          "gross_return": 0.06534181729149333,
+          "cost_drag": 4.999999999999996e-05,
+          "net_return": 0.06529181729149333,
+          "volatility": 0.06790057415965418,
+          "reserve": 0.55,
+          "turnover": 0.04999999999999996,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    },
+    "Last 36 returns": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 10,
+        "concentration_cap": 1,
+        "window": "Last 36",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.04365970163861318,
+          0.03069554620056969,
+          0.04842832264999068,
+          0.20247154478192364
+        ],
+        "volatilities": [
+          0.0021348300363935166,
+          0.06660158638756347,
+          0.07822457325413519,
+          0.11708917430189807
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.16745059875759982,
+            0.23520067972875194,
+            0.14741589864383492
+          ],
+          [
+            0.16745059875759982,
+            1.0,
+            0.9355864995693038,
+            0.5505386386906156
+          ],
+          [
+            0.23520067972875194,
+            0.935586499569304,
+            1.0,
+            0.6876216510372897
+          ],
+          [
+            0.14741589864383492,
+            0.5505386386906156,
+            0.6876216510372896,
+            1.0
+          ]
+        ],
+        "months": 36,
+        "first_return_date": "2023-10-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.0813137788177743,
+          "cost_drag": 0.0005,
+          "net_return": 0.0808137788177743,
+          "volatility": 0.05884327812557434,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "PASS",
+          "failed_rules": []
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.9280076733158547,
+            0.02974611811000777,
+            0.025326295466797186,
+            0.01691991310734039
+          ],
+          "gross_return": 0.046081922430861344,
+          "cost_drag": 0.0003830800868926597,
+          "net_return": 0.04569884234396868,
+          "volatility": 0.006089424673043304,
+          "reserve": 0.9280076733158547,
+          "turnover": 0.38308008689265965,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.14085425592915046,
+          "cost_drag": 0.0006,
+          "net_return": 0.14025425592915047,
+          "volatility": 0.09453938800146963,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.85,
+            0.0,
+            0.0,
+            0.15
+          ],
+          "gross_return": 0.06748147811010974,
+          "cost_drag": 0.00025,
+          "net_return": 0.06723147811010974,
+          "volatility": 0.017920977679340897,
+          "reserve": 0.85,
+          "turnover": 0.25,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    },
+    "Trading cost 100 bps": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 100,
+        "concentration_cap": 1,
+        "window": "All 59 returns",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.03657413969046572,
+          -0.017289448457118876,
+          -0.009276364723851134,
+          0.11050231213719372
+        ],
+        "volatilities": [
+          0.004909081068706458,
+          0.07718370749845418,
+          0.09868568317254776,
+          0.14924024160439014
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.21100211615245945,
+            0.27983353211502077,
+            0.2564060352481992
+          ],
+          [
+            0.21100211615245948,
+            1.0,
+            0.9347913203900478,
+            0.6355137404571376
+          ],
+          [
+            0.27983353211502077,
+            0.9347913203900478,
+            1.0,
+            0.7971335619166566
+          ],
+          [
+            0.25640603524819927,
+            0.6355137404571377,
+            0.7971335619166567,
+            1.0
+          ]
+        ],
+        "months": 59,
+        "first_return_date": "2021-11-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.030127659661672357,
+          "cost_drag": 0.005,
+          "net_return": 0.025127659661672356,
+          "volatility": 0.07548227089762465,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.87241689444597,
+            0.05548794427412243,
+            0.04339804035258242,
+            0.028697120927325053
+          ],
+          "gross_return": 0.03371706357680938,
+          "cost_drag": 0.0037130287907267494,
+          "net_return": 0.03000403478608263,
+          "volatility": 0.013697727296105014,
+          "reserve": 0.87241689444597,
+          "turnover": 0.37130287907267495,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.06259084139277578,
+          "cost_drag": 0.006,
+          "net_return": 0.05659084139277578,
+          "volatility": 0.12333536509658251,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.6,
+            0.0,
+            0.0,
+            0.4
+          ],
+          "gross_return": 0.06614540866915691,
+          "cost_drag": 0.0,
+          "net_return": 0.06614540866915691,
+          "volatility": 0.06051833015357496,
+          "reserve": 0.6,
+          "turnover": 0.0,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    },
+    "Last 36 with 100 bps cost": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 100,
+        "concentration_cap": 1,
+        "window": "Last 36",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.04365970163861318,
+          0.03069554620056969,
+          0.04842832264999068,
+          0.20247154478192364
+        ],
+        "volatilities": [
+          0.0021348300363935166,
+          0.06660158638756347,
+          0.07822457325413519,
+          0.11708917430189807
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.16745059875759982,
+            0.23520067972875194,
+            0.14741589864383492
+          ],
+          [
+            0.16745059875759982,
+            1.0,
+            0.9355864995693038,
+            0.5505386386906156
+          ],
+          [
+            0.23520067972875194,
+            0.935586499569304,
+            1.0,
+            0.6876216510372897
+          ],
+          [
+            0.14741589864383492,
+            0.5505386386906156,
+            0.6876216510372896,
+            1.0
+          ]
+        ],
+        "months": 36,
+        "first_return_date": "2023-10-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.0813137788177743,
+          "cost_drag": 0.005,
+          "net_return": 0.07631377881777429,
+          "volatility": 0.05884327812557434,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "PASS",
+          "failed_rules": []
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.9280076733158547,
+            0.02974611811000777,
+            0.025326295466797186,
+            0.01691991310734039
+          ],
+          "gross_return": 0.046081922430861344,
+          "cost_drag": 0.0038308008689265966,
+          "net_return": 0.042251121561934744,
+          "volatility": 0.006089424673043304,
+          "reserve": 0.9280076733158547,
+          "turnover": 0.38308008689265965,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.14085425592915046,
+          "cost_drag": 0.006,
+          "net_return": 0.13485425592915046,
+          "volatility": 0.09453938800146963,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.8,
+            0.0,
+            0.05,
+            0.15
+          ],
+          "gross_return": 0.06771990916067862,
+          "cost_drag": 0.0025000000000000005,
+          "net_return": 0.06521990916067862,
+          "volatility": 0.020812114714331285,
+          "reserve": 0.8,
+          "turnover": 0.25000000000000006,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    },
+    "Reserve floor 90%": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.9,
+        "cost_bps": 10,
+        "concentration_cap": 1,
+        "window": "All 59 returns",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.03657413969046572,
+          -0.017289448457118876,
+          -0.009276364723851134,
+          0.11050231213719372
+        ],
+        "volatilities": [
+          0.004909081068706458,
+          0.07718370749845418,
+          0.09868568317254776,
+          0.14924024160439014
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.21100211615245945,
+            0.27983353211502077,
+            0.2564060352481992
+          ],
+          [
+            0.21100211615245948,
+            1.0,
+            0.9347913203900478,
+            0.6355137404571376
+          ],
+          [
+            0.27983353211502077,
+            0.9347913203900478,
+            1.0,
+            0.7971335619166566
+          ],
+          [
+            0.25640603524819927,
+            0.6355137404571377,
+            0.7971335619166567,
+            1.0
+          ]
+        ],
+        "months": 59,
+        "first_return_date": "2021-11-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.030127659661672357,
+          "cost_drag": 0.0005,
+          "net_return": 0.029627659661672356,
+          "volatility": 0.07548227089762465,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.87241689444597,
+            0.05548794427412243,
+            0.04339804035258242,
+            0.028697120927325053
+          ],
+          "gross_return": 0.03371706357680938,
+          "cost_drag": 0.00037130287907267495,
+          "net_return": 0.033345760697736704,
+          "volatility": 0.013697727296105014,
+          "reserve": 0.87241689444597,
+          "turnover": 0.37130287907267495,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.06259084139277578,
+          "cost_drag": 0.0006,
+          "net_return": 0.061990841392775775,
+          "volatility": 0.12333536509658251,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor"
+          ]
+        },
+        "Constrained portfolio": null
+      },
+      "decision": "PAUSE \u2014 no feasible mix"
+    },
+    "ETF concentration cap 50%": {
+      "inputs": {
+        "objective": 0.065,
+        "reserve_minimum": 0.1,
+        "cost_bps": 10,
+        "concentration_cap": 0.5,
+        "window": "All 59 returns",
+        "vt_shock_percentage_points": 0
+      },
+      "estimates": {
+        "names": [
+          "BIL",
+          "IEF",
+          "LQD",
+          "VT"
+        ],
+        "returns": [
+          0.03657413969046572,
+          -0.017289448457118876,
+          -0.009276364723851134,
+          0.11050231213719372
+        ],
+        "volatilities": [
+          0.004909081068706458,
+          0.07718370749845418,
+          0.09868568317254776,
+          0.14924024160439014
+        ],
+        "correlations": [
+          [
+            1.0,
+            0.21100211615245945,
+            0.27983353211502077,
+            0.2564060352481992
+          ],
+          [
+            0.21100211615245948,
+            1.0,
+            0.9347913203900478,
+            0.6355137404571376
+          ],
+          [
+            0.27983353211502077,
+            0.9347913203900478,
+            1.0,
+            0.7971335619166566
+          ],
+          [
+            0.25640603524819927,
+            0.6355137404571377,
+            0.7971335619166567,
+            1.0
+          ]
+        ],
+        "months": 59,
+        "first_return_date": "2021-11-01",
+        "last_return_date": "2026-09-01"
+      },
+      "portfolios": {
+        "Equal weight": {
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "gross_return": 0.030127659661672357,
+          "cost_drag": 0.0005,
+          "net_return": 0.029627659661672356,
+          "volatility": 0.07548227089762465,
+          "reserve": 0.25,
+          "turnover": 0.5,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target"
+          ]
+        },
+        "Inverse volatility": {
+          "weights": [
+            0.87241689444597,
+            0.05548794427412243,
+            0.04339804035258242,
+            0.028697120927325053
+          ],
+          "gross_return": 0.03371706357680938,
+          "cost_drag": 0.00037130287907267495,
+          "net_return": 0.033345760697736704,
+          "volatility": 0.013697727296105014,
+          "reserve": 0.87241689444597,
+          "turnover": 0.37130287907267495,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "ETF concentration above limit"
+          ]
+        },
+        "Policy benchmark (40% LQD / 60% VT)": {
+          "weights": [
+            0,
+            0,
+            0.4,
+            0.6
+          ],
+          "gross_return": 0.06259084139277578,
+          "cost_drag": 0.0006,
+          "net_return": 0.061990841392775775,
+          "volatility": 0.12333536509658251,
+          "reserve": 0,
+          "turnover": 0.6,
+          "verdict": "FAIL",
+          "failed_rules": [
+            "Net modeled return below target",
+            "BIL below reserve floor",
+            "ETF concentration above limit"
+          ]
+        },
+        "Constrained portfolio": {
+          "weights": [
+            0.5,
+            0.05,
+            0.0,
+            0.45
+          ],
+          "gross_return": 0.06714863788411408,
+          "cost_drag": 9.999999999999998e-05,
+          "net_return": 0.06704863788411408,
+          "volatility": 0.07034969448613262,
+          "reserve": 0.5,
+          "turnover": 0.09999999999999998,
+          "verdict": "PASS",
+          "failed_rules": []
+        }
+      },
+      "decision": "RESEARCH PILOT \u2014 committee review required"
+    }
+  }
+}
