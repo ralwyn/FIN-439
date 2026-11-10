@@ -1,9 +1,9 @@
 Part,Location,Status,Duration,Timestamp index
-Repository,https://github.com/ralwyn/FIN-439,Ready for publication,,
-Runnable tool,https://github.com/ralwyn/FIN-439/blob/main/Project2/README.md,Ready for publication,,
-Decision memo,https://github.com/ralwyn/FIN-439/blob/main/Project2/docs/decision-memo.md,Ready for publication,,
-Validation,https://github.com/ralwyn/FIN-439/blob/main/Project2/docs/validation-and-ai-use.md,Ready for publication,,
-Visible output,https://github.com/ralwyn/FIN-439/blob/main/Project2/evidence/visible-output.md,Ready for publication,,
+Repository,https://github.com/ralwyn/FIN-439,Included,,
+Runnable tool,https://github.com/ralwyn/FIN-439/blob/main/Project2/README.md,Included,,
+Decision memo,https://github.com/ralwyn/FIN-439/blob/main/Project2/docs/decision-memo.md,Included,,
+Validation,https://github.com/ralwyn/FIN-439/blob/main/Project2/docs/validation-and-ai-use.md,Included,,
+Visible output,https://github.com/ralwyn/FIN-439/blob/main/Project2/evidence/visible-output.md,Included,,
 Changed-input prediction,https://github.com/ralwyn/FIN-439/blob/2cebc22/Project2/docs/changed-input-prediction.md,Pre-run snapshot; personal attestation pending,,
 Video 1 — evolution,UNRESOLVED,Recording required,maximum 3:00,timestamps unresolved
 Video 2 — code,UNRESOLVED,Recording required,maximum 5:00,timestamps unresolved
