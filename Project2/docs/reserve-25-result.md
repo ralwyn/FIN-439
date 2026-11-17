@@ -1,6 +1,6 @@
 # Locked changed-input record: BIL reserve 10% → 25%
 
-[Student's prediction, committed and pushed before the test](https://github.com/ralwyn/FIN-439/blob/da80deb9f4ee76665ccbec69db9d9b468e91ee5e/Project2/docs/prediction-reserve-25.md). Commit: `da80deb9f4ee76665ccbec69db9d9b468e91ee5e`. The student submitted the prediction in chat; independent AI-off authorship must be confirmed by the student. The assistant had explained the mandate and possible categories of inputs beforehand.
+[Student's prediction, committed and pushed before the test](https://github.com/ralwyn/FIN-439/blob/da80deb9f4ee76665ccbec69db9d9b468e91ee5e/Project2/docs/prediction-reserve-25.md). Commit: `da80deb9f4ee76665ccbec69db9d9b468e91ee5e`. The student submitted the prediction in chat and subsequently confirmed that it was their own. The student has not separately confirmed the AI-off condition. The assistant had explained the mandate and possible categories of inputs beforehand.
 
 The test changed only the minimum BIL weight from 10% to 25%, holding the 6.5% net target, all 59 monthly returns, 10 basis points per one-way turnover, the 100% single-ETF cap, and the remaining assumptions fixed. The engine minimizes modeled volatility over a long-only, fully invested five-percentage-point grid subject to the implemented rules. Run after publication: `engine.compare(reserve=.10)` and `engine.compare(reserve=.25)`. Full machine-readable results and UTC execution time: [reserve-25-result.json](../evidence/reserve-25-result.json).
 

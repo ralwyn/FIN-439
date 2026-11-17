@@ -14,4 +14,4 @@ The zero-cost base result follows unchanged reference weights. Nonzero-turnover 
 
 ## Student's 25% reserve test
 
-The student's 10% → 25% reserve-floor prediction was committed and pushed before the run. The portfolio remained 60% BIL / 40% VT with no change in modeled return or volatility; the floor did not bind. The prediction, inputs, results, diagnosis, and decision effect are in the [complete record](reserve-25-result.md). The student must confirm that the prediction was made independently without AI assistance.
+The student's 10% → 25% reserve-floor prediction was committed and pushed before the run. The portfolio remained 60% BIL / 40% VT with no change in modeled return or volatility; the floor did not bind. The prediction, inputs, results, diagnosis, and decision effect are in the [complete record](reserve-25-result.md). The student subsequently confirmed the prediction was their own; the AI-off condition has not been separately confirmed.

@@ -1,5 +1,5 @@
 {
-  "submission-manifest.csv": "fa324eee03bf4421eadb3f887f1c9d301eeecb912a72fb41bb83431994759131",
+  "submission-manifest.csv": "26a4cf460e3d81934b3a91859810a8461f36b7a4e820d3592bb85bb906a20022",
   "requirements.txt": "91db20026c93b6d2d46c900376215b8a8a11cb13fd0f409f7873ea62a77e537a",
   "portfolio_math.py": "8efac3f34c8f64d374b526db05929a5bfdc6a26e8bcc17c322a3ea5682f3e336",
   "verify_ui.py": "6e60a4438cfed9971835241b80ac2d6c52c98bb210297d2df8437f41e078faef",
@@ -22,7 +22,7 @@
   "docs/decision-memo.md": "50a0e8fc9d4cda628c7b581f2d31d691425d54e7b7a2e48d92caa15673bd559e",
   "docs/data-card.md": "7356f438cc971513200727a1ab2bb7fb7ead5aa26e2b885189ee11abd4696e97",
   "docs/must-fix.md": "2933215ac7480f8d33db3995b6d79a75ef73cf35fc4f6f5c9bae4443537a91ad",
-  "docs/validation-and-ai-use.md": "60cfa3b679c3725be7aebfb7134c45206ca1adf5b68bd00890b03a946fa55ffc",
+  "docs/validation-and-ai-use.md": "15efb83259ded7b23e13c7a056a12c04bc874f262412a17e7d8a195aa599ef94",
   "docs/changed-input-prediction.md": "1c7e0b1a891181a375b2d4bbf7ab4a19c0ddd06ff6ba10a16abc0c2c70595df9",
   "docs/committee-challenge.md": "b35040ed39d5f763772fe5f81a5f8641dbe66d7fd0c6fe28ec040e12014b2931",
   "docs/cold-run.md": "08db35efd832db7f3a2ac02ab5c9887a0b2156838b808d3f8c87cf52f3aadb88",
@@ -35,6 +35,6 @@
   "data/DGS10-2026-10-31.csv": "057390eb2103827b01881915c390cc13c64982484df8f38646b9f5495eeb74b0",
   "docs/ai-checkout.md": "cc2c09ef2adfa725b2c4f36d3fb905d42baa92109c8985929a212253dbac0688",
   "docs/prediction-reserve-25.md": "c2e068521a3dae8e68070a128451065fe45358d5d31f3bc4ffdf37cfec5c39b2",
-  "docs/reserve-25-result.md": "f9d84ac3a24ea6025dbfbd91c5e8a8c4c896d50a471bf6c355e2ab3fbc921ec7",
+  "docs/reserve-25-result.md": "1fe88af4621776dd72afac2cdeaf5e22d3685941c19517289393bdc2f458b5e8",
   "evidence/reserve-25-result.json": "e41e9ef555c290a8cb62c055f6cf6654bff8d459c7ca7226a7b92bac5748e98f"
 }
