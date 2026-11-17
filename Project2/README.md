@@ -1,5 +1,7 @@
 # Campus Opportunity Scholarship Fund — Project 2
 
+AI announcement: Codex assisted with code, analysis, validation and drafting. The student must review and take responsibility for the analysis and decision before submission.
+
 Education, not investment advice.
 
 Python web app for a fictional scholarship-fund committee: two transparent baselines, policy benchmark, constrained portfolio, mandate verdicts, archived-vintage rate monitor and stress results. Start with the saved evidence; no live data key is required.

@@ -1,5 +1,7 @@
 # Campus Opportunity Scholarship Fund — committee memo
 
+AI announcement: Codex assisted with code, analysis, validation and drafting. The student must review and take responsibility for the analysis and decision before submission.
+
 Education, not investment advice.
 
 ## Committee ask
