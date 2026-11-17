@@ -8,7 +8,7 @@ Highest-risk counterexample: alternate estimation window moves twenty-five perce
 
 ## Changed-input evidence
 
-Reserve minimum: 10% → 90%; target 6.5%; all other base inputs fixed. The saved prediction anticipated infeasibility, and the run returned no feasible mix. Decision effect: pause, retain the target and ask the committee to reconcile constraints. Prediction was committed as 2cebc22 and pushed through GitHub Desktop before this run. Snapshot hash/time are in evidence/prediction-snapshot.json. This prediction was AI-assisted and does not satisfy the required human-authored AI-off prediction. A new independent prediction must be committed before its corresponding test is run. See [AI checkout](ai-checkout.md).
+Reserve minimum: 10% → 90%; target 6.5%; all other base inputs fixed. The saved prediction anticipated infeasibility, and the run returned no feasible mix. Decision effect: pause, retain the target and ask the committee to reconcile constraints. Prediction was committed as 2cebc22 and pushed through GitHub Desktop before this run. Snapshot hash/time are in evidence/prediction-snapshot.json. This prediction was AI-assisted and does not satisfy the required human-authored AI-off prediction. The later student prediction and test are documented below. See [AI checkout](ai-checkout.md).
 
 The zero-cost base result follows unchanged reference weights. Nonzero-turnover scenarios test the actual cost formula. No trading, capital deployment, false attendance, personal recording or Brightspace submission is claimed. Detailed tool use and outstanding personal items are in [AI checkout](ai-checkout.md).
 

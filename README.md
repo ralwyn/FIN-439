@@ -1,6 +1,12 @@
 # FIN 439 — start here
 
-## Today's class
+## Project 2 — begin here
+
+The [Project 2 README](Project2/README.md) contains the clean-install and launch instructions, including how to run the checks. For a reviewer who already has Python 3.12, clone this repository, open the `Project2` directory, install `requirements.txt` in a virtual environment, and run `python -m streamlit run app.py`.
+
+The saved [decision and executed results](Project2/evidence/visible-output.md), [decision memo](Project2/docs/decision-memo.md), [validation record](Project2/docs/validation-and-ai-use.md), and [submission manifest](Project2/submission-manifest.csv) are readable without running the app. The proposed decision is a paper research pilot; the student must review and accept it. Recordings and final submission remain outstanding.
+
+## Earlier class setup (November 10)
 
 Double-click **00-Class-Today/Start-Class-Apps.command**.
 

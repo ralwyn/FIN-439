@@ -56,7 +56,8 @@ def main():
         st.download_button('Download this scenario',json.dumps(result,indent=2),'scholarship-scenario.json')
     with signal_tab:
         st.subheader('Treasury-rate risk monitor · DGS10')
-        decision=st.date_input('Information cutoff',value=__import__('datetime').date(2026,11,10))
+        st.caption('Saved historical data: the default cutoff is today; choose November 10, 2026 to replay the original example. A stale signal is quarantined.')
+        decision=st.date_input('Information cutoff',value=__import__('datetime').date.today())
         lag=st.slider('Weekdays after source download',1,5,1)
         signal=engine.point_in_time_signal(lag,decision.isoformat())
         st.metric('Change between archived vintage endpoints',f"{signal['change_bps']:.1f} basis points")
