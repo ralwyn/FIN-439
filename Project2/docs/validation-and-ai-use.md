@@ -19,3 +19,7 @@ The student's 10% → 25% reserve-floor prediction was committed and pushed befo
 ## Further reconciliation after Project 1 feedback
 
 Two independently specified synthetic examples check return, covariance, turnover, costs and simultaneous rule failures against the portfolio engine. The input values and hand calculations are in [independent reconciliation](independent-reconciliation.md); both pass in `verify_project.py`. These do not substitute for the instructor-requested Week 3 DCF and ABG multi-statement reconciliations, which have not been established for this portfolio application. A student-operated cold run and actual timestamped video transcripts remain outstanding.
+
+## Student-operated cold run
+
+The student reports a 42-minute run from a fresh GitHub download, with Codex guidance; the app opened and the student found the portfolio results. The reported confusion, resolution, assistance and details not supplied are preserved in [student cold run](student-cold-run.md). This is not an unassisted or partner cold run.
