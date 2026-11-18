@@ -3,6 +3,25 @@ import unittest
 import engine
 
 class ProjectChecks(unittest.TestCase):
+    def test_manual_two_asset_reconciliation(self):
+        # Fixed hand-derived answers, not outputs copied from the engine.
+        corr=[[1,.25,0,0],[.25,1,0,0],[0,0,1,0],[0,0,0,1]]
+        e={'returns':[.04,.08,.03,.10], 'volatilities':[.10,.20,.15,.25], 'correlations':corr}
+        r=engine.evaluate([.5,.5,0,0],e,objective=.055,reserve=.1,cost_bps=10)
+        self.assertAlmostEqual(r['gross_return'],.06)
+        self.assertAlmostEqual(r['turnover'],.5)
+        self.assertAlmostEqual(r['cost_drag'],.0005)
+        self.assertAlmostEqual(r['net_return'],.0595)
+        self.assertAlmostEqual(r['volatility'],math.sqrt(.015))
+        self.assertEqual(r['verdict'],'PASS')
+        r2=engine.evaluate([.2,0,0,.8],e,objective=.085,reserve=.25,cost_bps=100)
+        self.assertAlmostEqual(r2['gross_return'],.088)
+        self.assertAlmostEqual(r2['turnover'],.4)
+        self.assertAlmostEqual(r2['cost_drag'],.004)
+        self.assertAlmostEqual(r2['net_return'],.084)
+        self.assertAlmostEqual(r2['volatility'],math.sqrt(.0404))
+        self.assertEqual(r2['failed_rules'],['Net modeled return below target','BIL below reserve floor'])
+
     def test_training_known_answers(self):
         p=engine.p
         c=p.covariance_matrix(p.VOLATILITIES,p.CORRELATIONS)

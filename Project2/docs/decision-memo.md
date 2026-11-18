@@ -33,7 +33,7 @@ The 25-point allocation shift under the alternate window breaches the proposed t
 
 ## Signal and company screen
 
-The DGS10 monitor preserves archived vintages and actual source-arrival times. Its endpoint change is −30 basis points; the proposed +25-basis-point rate-rise alert does not fire. It has no demonstrated predictive return benefit and does not automatically change weights. The NVIDIA investor panel is supporting due diligence: Buffett and Cathie Wood pass their checks, while Burry flags cash conversion. It does not justify an individual-stock position or alter the ETF universe.
+The DGS10 monitor preserves archived vintages and actual source-arrival times. For the November 10 historical cutoff, its endpoint change was −30 basis points and the proposed +25-basis-point rate-rise alert did not fire. At the current date the saved observation is stale and the app quarantines it; refresh the source before current use. It has no demonstrated predictive return benefit and does not automatically change weights. The NVIDIA investor panel is supporting due diligence: Buffett and Cathie Wood pass their checks, while Burry flags cash conversion. It does not justify an individual-stock position or alter the ETF universe.
 
 ## Conditions, monitoring and reversal
 
